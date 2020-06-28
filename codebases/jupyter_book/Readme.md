@@ -1,8 +1,6 @@
 # Jupyter Book and Colab
 
-<center>
-<img src="jupyter_book_to_colab.png" width="50%" />
-</center>
+<img src="jupyter_book_to_colab.png" width="75%" />
 
 At Reconstrue, a simple Jupyter-dcentric document production pipeline
 used multiple times has been Jupyter Book linked to Google's
