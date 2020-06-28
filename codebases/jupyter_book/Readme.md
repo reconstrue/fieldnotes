@@ -1,12 +1,14 @@
 # Jupyter Book and Colab
 
-![](jupyter_book_to_colab.png)
+<img src="jupyter_book_to_colab.png" width="50%" />
 
-At Reconstrue, a simple Jupyter-centric document production pipeline
+At Reconstrue, a simple Jupyter-dcentric document production pipeline
 used multiple times has been Jupyter Book linked to Google's
-Colab. Jupyter Book is a static site generator (SSG) for a git repo
+Colab. 
+
+Jupyter Book is a static site generator (SSG) for a git repo
 full of Jupyter notebooks. [Colab](https://colab.research.google.com/)
-is a free Jupyer hosting service provided by Google. Google Colab is
+is a free Jupyter hosting service provided by Google. Google Colab is
 to Google Sheets as a Python notebook is to a JavaScript spread sheet.
 
 So, SSG render the repo via Jupyter Book and if some readers wish to
@@ -28,12 +30,6 @@ provisioning of two VMs per user.
 Notebooks, more all the time. Colab is the best UX, with lots of
 memory and nice GPUs.)
 
-[Note: Reconstrue no longer develops atop Jupyter Book.  Rather newer
-work is based on React: using notebooks and JSX, rather than notebooks
-and markdown. Gatsby can then be used for static site
-generation. Jupyter Book is still a good choice for folks who want to
-stay away from JSX and the whole JavaScript can of worms.]
-
 
 ## Jupyter Book
 
@@ -43,10 +39,10 @@ bee's knees. In the Jupyter notebook world, a tool called
 
 Basicly, Jupyter Book is a great tool where the input is a repo full
 of `*.ipynb` and `*.md` files plus a table of contents. The output is
-a static files "book" of the Jupyter notebooks run through "nbconvert"
-to HTML.
+a static files "book" of the Jupyter notebooks as if they were run
+through "nbconvert" to HTML.
 
-Jupyter Book takes a git repository as input. The repostitory contains
+Jupyter Book takes a git repository as input. The repository contains
 Jupyter notebooks (`*.ipynb` files) and Markdown files (`*.md` files).
 Additionally there is a concept of a Table of Contents (a YAML files),
 which specifies the start page of the "book." 
@@ -149,10 +145,6 @@ a copy, exiting playground mode will save a copy of the modified
 static web site showing HTML rendering of `.ipynb` files. Those static
 HTML files can then link to Colab (or Binder) to on-demand hook the
 notebook up to a new VM. **A static web site linking to free compute.**
-
-
-
-
 
 
 ## The Hack
