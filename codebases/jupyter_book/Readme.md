@@ -1,6 +1,6 @@
 # Jupyter Book and Colab
 
-![]("./jupyter_book_to_colab.png")
+![](jupyter_book_to_colab.png)
 
 At Reconstrue, a simple Jupyter-centric document production pipeline
 used multiple times has been Jupyter Book linked to Google's
@@ -70,11 +70,20 @@ template in Jupyter Book was enough to get the code to where it could
 also link to Colab, as well.
 
 
+
 ## Jupyter Book to Colab
 
 
 In the context of Jupyter-Book-interact-Colab deploy, any given
 Jupyter notebook `.ipynb` file in the reop can have four manifestions.
+
+![](./four_reps_of_ipynb.png)
+
+Even more confusingly, in this case `static_bar.com` is actually
+`github.io`, the GitHub Pages site, not github.com.
+
+(GitHub Pages is a free service github.io: a static website for any repos on
+github.com. A.k.a. `gh-pages` branches back in the day.)
 
 Let's walk through the five steps.
 
@@ -172,49 +181,3 @@ So, the "hack" is simply a modification of one of the HTML templates that are in
 {% capture interact_icon_jupyterhub %}https://colab.research.google.com/assets/colab-badge.svg{% endcapture %}
 <a href="{{ site.jupyterhub_url }}/github/{{ interact_url_jupyterhub }}"><button class="interact-button" id="interact-button-jupyterhub"><img class="interact-button-logo" src="{{ interact_icon_jupyterhub }}" alt="Interact" />{{ site.jupyterhub_interact_text }}</button></a>
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Detailed interaction sequence
-
-In the general case it works as follows, which is confusing enough.
-
-![]("./four_reps_of_ipynb.png")
-
-Even more confusingly, in this case `foo.com` is github.io, the GitHub
-Pages site, not github.com.
-
-(GitHub Pages is a free service: a static website for any repos on
-github.com. A.k.a. `gh-pages` branches back in the day.)
-
