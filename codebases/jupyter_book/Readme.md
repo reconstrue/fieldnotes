@@ -2,9 +2,9 @@
 
 <img src="jupyter_book_to_colab.png" width="75%" />
 
-At Reconstrue, a simple Jupyter-dcentric document production pipeline
+At Reconstrue, a simple Jupyter-centric document production pipeline
 used multiple times has been Jupyter Book linked to Google's
-Colab. 
+Colab.
 
 Jupyter Book is a static site generator (SSG) for a git repo
 full of Jupyter notebooks. [Colab](https://colab.research.google.com/)
